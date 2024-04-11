@@ -1,0 +1,100 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+ul.container-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.container-items li {
+  padding: 6px;
+  border-bottom: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+}
+
+.container-items li:hover {
+  background-color: #f0f0f0;
+}
+
+.filter-text {
+  /*width: 200px; */
+  /*padding: 10px;*/
+   border: none; 
+  /*border-radius: 5px;*/
+}
+
+.highlighted-text {
+  background: aquamarine;
+}
+
+.input-container {
+  position: relative;
+}
+
+.clear-icon {
+  cursor: pointer;
+}
+
+#ul-items .active {
+  background-color: #f0f0f0;
+}
+
+.autocomplete-input-container {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input:focus {
+  outline: none;
+}
+
+.item-selected-container {  
+  display: inline-flex;
+}
+
+.item-selected {
+  background-color: azure;  
+}
